@@ -10,8 +10,8 @@
 	<body>
 		<h1>身長と体重を入力してください</h1>
 		<div id="app">
-			<input v-model.number="A" type="number">m x 
-			<input v-model.number="B" type="number">kg
+			<input v-model.number="A" type="number"> m x 
+			<input v-model.number="B" type="number"> kg
 			<h4>BMI　{{ sum }} </h4>
 			<h4>適正体重　{{ sum2 }} </h4>
             <p v-if="sum>25"><br>ダイエットしましょう</br><img src="太ってる人.jpg" title="太ってる人"></p>
